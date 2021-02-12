@@ -9,6 +9,10 @@
     "build": "npm run clean && webpack --progress --config webpack.config.js -p",
     "webpack": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicmosc/brick-builder"
+  },
   "keywords": [],
   "author": "Nicolaos Moscholios <nmoscholios@gmail.com>",
   "license": "MIT",
