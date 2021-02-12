@@ -9,9 +9,7 @@ export function addBrick(brick) {
   };
 }
 
-
 export const REMOVE_BRICK = 'REMOVE_BRICK';
-
 export function removeBrick(id) {
   return {
     type: REMOVE_BRICK,

@@ -21,6 +21,7 @@ import {
   updateBrick,
   resetScene,
   setScene,
+
 } from 'actions';
 import Scene from 'components/engine/Scene';
 import Topbar from 'components/Topbar';

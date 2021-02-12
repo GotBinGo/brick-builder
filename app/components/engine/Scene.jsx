@@ -336,13 +336,13 @@ class Scene extends React.Component {
         <If cond={isDDown && mode === 'build'}>
           <Message>
             <i className="ion-trash-a" />
-            <span>Deleting bricks</span>
+            <span>Törlésr</span>
           </Message>
         </If>
         <If cond={isRDown && mode === 'build'}>
           <Message>
             <i className="ion-refresh" />
-            <span>Rotating bricks</span>
+            <span>Forgatás 90 fokkal</span>
           </Message>
         </If>
         <Monitor />

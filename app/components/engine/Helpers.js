@@ -28,7 +28,7 @@ export class RollOverBrick extends THREE.Mesh {
   rotate(angle) {
 
       // this.rotateY( angle/2 );
-      this.rotation.y +=angle;
+      this.rotation.y -= angle;
       // this.rotated = angle;
     }
 

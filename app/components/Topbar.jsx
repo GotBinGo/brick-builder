@@ -23,21 +23,28 @@ const Topbar = ({
   return (
     <div className={styles.topbar}>
       <div className={styles.section}>
-        {/* <div className={styles.title}>
-          Scene
-        </div> */}
-        <Button
+      <Button
           active={grid}
           onClick={onClickToggleGrid}
           icon="grid"
           text="Grid" />
+      <Button
+
+          icon="refresh"
+          text="R billentyű" />
+        <Button
+
+
+          icon="trash-a"
+          text="D billentyű" />
+
       </div>
       <div className={styles.rightSection}>
         <Button
           active={utilsOpen}
           onClick={onClickToggleUtils}
           icon="navicon-round"
-          text="Utils" />
+          text="Menü" />
       </div>
       {children}
     </div>

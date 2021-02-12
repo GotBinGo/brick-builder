@@ -17,20 +17,20 @@ class Sidebar extends React.Component {
           <div className={styles.row} onClick={resetScene}>
             <div className={styles.text}>
               <i className="ion-trash-a" />
-              <span>Reset scene</span>
+              <span>Reset</span>
             </div>
           </div>
           <div className={styles.row} onClick={this._exportFile}>
             <div className={styles.text}>
               <i className="ion-log-out" />
-              <span>Export scene</span>
+              <span>Export</span>
             </div>
           </div>
           <div className={styles.row}>
             <FileUploader onFinish={this._importFile}>
               <div className={styles.text}>
                 <i className="ion-log-in" />
-                <span>Import scene</span>
+                <span>Import</span>
               </div>
             </FileUploader>
           </div>
